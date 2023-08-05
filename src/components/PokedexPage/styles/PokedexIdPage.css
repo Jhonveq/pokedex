@@ -1,0 +1,100 @@
+.id__card {
+    margin-top: 6em;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.id__container {
+    border-radius: 0.7em;
+    border: 0.2em solid #ccc;
+    background-color: white;
+}
+
+.id__header {
+    background-color: #999;
+    aspect-ratio: 11;
+    position: relative;
+}
+
+.id__image {
+    position: relative;
+    top: -10em;
+    width: 50%;
+    height: 350px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 0;
+}
+
+.id__number {
+    margin-top: 1.5em;
+    border: 0.1em solid #ccc;
+    width: fit-content;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.id__name {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 1em;
+    font-size:500;
+    font-weight: 45px;
+}
+
+.id__name--line {
+    color: #ccc;
+}
+
+.id__characteristics{
+    margin-top: 1em;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    text-align: center;
+}
+
+.id__types {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.id__type--name {
+    text-transform: capitalize;
+    margin: 1em 35%;
+    background-color: #ccc;
+    border-color: #ccc;
+}
+.id__abilities--name {
+    text-transform: capitalize;
+    margin: 1em 35%;
+    background-color: #f5f4f4;
+    border: 2px solid #3e3b3b;
+    border-radius: 15px;
+}
+
+.id__movements {
+    margin-top: 3em;
+}
+
+.id__movements--title {
+    text-align: center;
+}
+
+.id__move--container {
+    margin: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+}
+
+.id__move--name {
+    text-transform: capitalize;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 18px;
+    background-color: #f1ecec;
+}

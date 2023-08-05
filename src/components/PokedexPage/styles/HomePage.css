@@ -1,0 +1,41 @@
+.login__container {
+    position: relative;
+    margin: 3% 10%;
+}
+
+.login__image {
+    margin-bottom: 2em;
+}
+
+.login__title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 0.3em;
+    color: red;
+}
+
+.login__paragraph {
+    text-align: center;
+    font-weight: 500;
+}
+
+.login__form {
+    margin-top: 1em;
+    text-align: center;
+}
+
+.login__input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login__input::placeholder {
+    font-weight: bold;
+    opacity: 0.5;
+}
+
+.login__button {
+    background-color: red;
+    color: white;
+}

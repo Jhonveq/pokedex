@@ -1,0 +1,42 @@
+.pokedex {
+    margin-top: 1em;
+    text-align: center;
+    color: red;
+}
+
+.pokedex__trainer {
+    text-transform: capitalize;
+    color: black;
+}
+
+.pokedex__option{
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+    justify-content:center;
+    font-weight: 400;
+
+}
+
+.pokedex__form {
+}
+
+.pokedex__input {
+    border: 1px solid black ;
+}
+
+.pokedex__button {
+    background-color: red ;
+    color: white;
+}
+
+
+.card__container {
+    margin-top: 1em;
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+    justify-content: center;
+}
